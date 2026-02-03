@@ -21,12 +21,18 @@ const Hero = () => {
                         Alphons <span className="gradient-text">Biju</span>
                     </h1>
                     <h3 className="text-xl md:text-2xl text-gray-300 mb-6 font-light flex flex-wrap items-center gap-3">
-                        <span className="text-neonBlue">•</span>
-                        <span>Frontend Developer</span>
-                        <span className="text-neonBlue">•</span>
-                        <span>UI/UX Designer</span><br></br>
-                        <span className="text-neonBlue">•</span>
-                        <span>Tech Creator</span>
+                        <span className="flex items-center gap-3">
+                            <span className="text-neonBlue">•</span>
+                            <span>Frontend Developer</span>
+                        </span>
+                        <span className="flex items-center gap-3">
+                            <span className="text-neonBlue">•</span>
+                            <span>UI/UX Designer</span>
+                        </span>
+                        <span className="flex items-center gap-3">
+                            <span className="text-neonBlue">•</span>
+                            <span>Tech Creator</span>
+                        </span>
                     </h3>
                     <p className="text-gray-400 text-base md:text-lg mb-8 max-w-lg leading-relaxed">
                         Building fast, beautiful, and meaningful digital experiences. Passionate about innovation, hackathons, and real-world problem solving.
