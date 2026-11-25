@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/alphons-portfolio/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
     <title>Alphons Biju | Frontend Developer & UI/UX Designer</title>
-    <meta name="description" content="Portfolio of Alphons Biju, a Creative Frontend Developer and UI/UX Designer specialized in React, Figma, and modern web technologies." />
+    <meta name="description" content="Alphons Biju — B.Tech CSE student at SJCET Palai. Frontend Developer, Full-Stack Developer & UI/UX Designer building modern web experiences with React, Node.js and Figma." />
+    <meta name="keywords" content="Alphons Biju, Frontend Developer, React Developer, UI/UX Designer, Full Stack Developer, SJCET Palai, Kerala, Web Developer" />
+    <meta name="author" content="Alphons Biju" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alphonsbiju7.github.io/alphons-portfolio/" />
+    <meta property="og:title" content="Alphons Biju | Frontend Developer & UI/UX Designer" />
+    <meta property="og:description" content="B.Tech CSE student at SJCET Palai. Building modern web applications, intuitive user interfaces, and technology-driven products." />
+    <meta property="og:image" content="https://alphonsbiju7.github.io/alphons-portfolio/og-image.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Alphons Biju | Frontend Developer & UI/UX Designer" />
+    <meta name="twitter:description" content="B.Tech CSE student at SJCET Palai. Frontend Developer, UI/UX Designer, Tech Creator." />
+    <meta name="twitter:image" content="https://alphonsbiju7.github.io/alphons-portfolio/og-image.jpg" />
+
     <meta name="theme-color" content="#050505" />
-    <script type="module" crossorigin src="/alphons-portfolio/assets/index-C5NzCabf.js"></script>
-    <link rel="stylesheet" crossorigin href="/alphons-portfolio/assets/index-D7TbA1P-.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Anti-flash: apply saved theme before paint -->
+    <script>
+      (function () {
+        var saved = localStorage.getItem('portfolio-theme');
+        var isDark = saved ? saved === 'dark' : true;
+        document.documentElement.classList.toggle('dark', isDark);
+      })();
+    </script>
+    <script type="module" crossorigin src="/alphons-portfolio/assets/index-C8j_KFk_.js"></script>
+    <link rel="stylesheet" crossorigin href="/alphons-portfolio/assets/index-CB1qSiPI.css">
   </head>
   <body>
     <div id="root"></div>
